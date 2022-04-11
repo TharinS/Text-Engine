@@ -1,5 +1,6 @@
 #include "class/window.cpp"
 
 int main() {
-    cout << "hello" << endl;
+    TextWindow mainWindow(100, 100);
+    mainWindow.UpdateWindow();
 }
